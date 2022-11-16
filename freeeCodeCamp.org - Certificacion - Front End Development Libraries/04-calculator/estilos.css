@@ -1,0 +1,110 @@
+/*App cc */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    height: 100%;
+    padding-top: 10px;
+    background-color: #393E46;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-calculadora {
+    width: 400px;
+    height: 600px;
+    background-color: #3A8891;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin: 50px;
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* boton css */
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #80489C;
+    color: white;
+    border-radius: 5px;
+    margin: 4px;
+    cursor: pointer;
+    border: 2px solid white;
+    user-select: none;
+}
+
+.boton-contenedor:hover {
+    background-color: #5a01a7c0;
+}
+
+.operador {
+    background-color: #00471b7c;
+    
+}
+
+.operador:hover {
+    background-color: #9460c269;
+    
+}
+
+/* boton limipar */
+.boton-clear {
+    height: 70px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: #EB6440;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton-clear:hover {
+    background-color: #ebb000;
+}
+
+/* pantalla */
+#pantalla {
+    height: 75px;
+    border-radius: 10px;
+    margin: 12px 7px 20px 7px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #497174;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid rgba(136, 136, 136, 0.74);
+    box-shadow: -1px 4px 1px 1px white;
+}
+
+#display {
+  font-size: 15px;
+  color: black;
+}

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    width: 100%;
+    height: 100vh;
+    background-color: #0e3e6fa1;
+    display: flex;
+    justify-content: center;
+}
+
+
+#drum-machine {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+
+}
+.contenedor-clickLetras {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border: 2px solid #0E5E6F;
+    border-radius: 10px;
+    
+}
+
+.drum-pad {
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #0E5E6F;
+    font-size: 18px;
+   
+
+}
+.drum-pad:active {
+    background-color: red;
+}
+
+#display {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #0E5E6F;
+    padding: 25px;
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.btn-color {
+    background-color: #0E5E6F;
+} 
